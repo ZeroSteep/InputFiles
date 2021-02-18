@@ -1,0 +1,56 @@
+$color_btn: #42b983;
+
+.App {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    width: 790px;
+    background: rgb(240 248 255);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.label_btn, .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid $color_btn;
+    color: $color_btn;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #fff;
+    cursor: pointer;
+    margin-right: 1rem;
+    outline: none;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    font-size: 13.3333px;
+}
+
+
+.btn.download {
+    color: #fff;
+    background: $color_btn;
+}
+
+.btn:hover, .label_btn:hover {
+    opacity: 0.8;
+}
+
+.input {
+    display: none;
+}
+
+.preview {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    place-items: flex-start;
+}
